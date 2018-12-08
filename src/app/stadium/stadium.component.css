@@ -1,6 +1,6 @@
 .mySvg{
-width: 80%;
-height: 900px;
+width: 550.000000pt;
+height: 428.000000pt;
 border: 1px black solid;
 }
 
@@ -11,8 +11,17 @@ svg polygon{
   transition: fill .2s;
 }
 
+svg path{
+  fill:#ccc;
+  stroke:#fff;
+  stroke-width:0.3;
+  transition: fill .2s;
+}
+
 svg a:hover polygon{ fill:teal; }
 svg a:focus polygon{ fill:orange; }
+svg a:hover path{ fill:teal; }
+svg a:focus path{ fill:orange; }
 
 .svg-wrapper{
 text-align: center;

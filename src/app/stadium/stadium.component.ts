@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import 'fabric';
-declare const fabric: any;
 
 @Component({
   selector: 'app-stadium',
